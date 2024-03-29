@@ -20,6 +20,15 @@ module.exports = {
         '@typescript-eslint/triple-slash-reference': 'off',
       },
     },
+    {
+      files: ['*.ts'],
+      rules: {
+        '@typescript-eslint/consistent-type-definitions': 'off',
+        '@typescript-eslint/no-extraneous-class': 'off',
+        '@typescript-eslint/consistent-type-assertions': 'off',
+        '@typescript-eslint/strict-boolean-expressions': 'off',
+      },
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
