@@ -9,6 +9,18 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@babylonjs/accessibility": "^7.0.0",
+    "@babylonjs/core": "^7.0.0",
+    "@babylonjs/gui": "^7.0.0",
+    "@babylonjs/gui-editor": "^7.0.0",
+    "@babylonjs/havok": "^1.3.3",
+    "@babylonjs/inspector": "^7.0.0",
+    "@babylonjs/loaders": "^7.0.0",
+    "@babylonjs/materials": "^7.0.0",
+    "@babylonjs/post-processes": "^7.0.0",
+    "@babylonjs/procedural-textures": "^7.0.0",
+    "@babylonjs/serializers": "^7.0.0",
+    "@babylonjs/shared-ui-components": "^7.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
