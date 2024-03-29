@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "devcheck": "npm run lint && npm run stylelint",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src/*.ts",
