@@ -15,3 +15,11 @@ html, body {
   height: 100%;
   touch-action: none;
 }
+
+.lil-gui {
+  --font-size: 16px;
+  --input-font-size: 16px;
+  --line-height: 1.5;
+  --widget-height: 32px;
+  --width: 20%;
+}

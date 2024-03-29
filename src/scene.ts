@@ -2,12 +2,14 @@ import { Scene, FreeCamera, HemisphericLight, type Mesh, type Engine, Vector3, M
 import { GridMaterial } from '@babylonjs/materials/grid/gridMaterial';
 import { AxesViewer } from '@babylonjs/core/Debug/axesViewer';
 import { Inspector } from '@babylonjs/inspector';
+import { LilGui } from './lil-gui';
 
 export class BabylonScene {
   scene: Scene;
   camera: FreeCamera;
   hemiLight: HemisphericLight;
   ground: Mesh;
+  gui = new LilGui();
 
   constructor(
     readonly engine: Engine,
