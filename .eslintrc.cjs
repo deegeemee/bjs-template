@@ -15,6 +15,12 @@ module.exports = {
             "parserOptions": {
                 "sourceType": "script"
             }
+        },
+        {
+            "files": ["*.d.ts"],
+            "rules": {
+                "@typescript-eslint/triple-slash-reference": "off"
+            }
         }
     ],
     "parserOptions": {
